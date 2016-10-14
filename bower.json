@@ -1,0 +1,17 @@
+{
+  "name": "hm2fi",
+  "description": "Help me to find it project",
+  "main": "",
+  "authors": [
+    "Eugene Lutsiuk"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/anega/hm2fi",
+  "private": true,
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
