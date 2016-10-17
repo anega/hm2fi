@@ -4,6 +4,7 @@
  * Module dependencies.
  */
 var init = require('./config/init')(),
+    config = require('./config/config'),
     express = require('express');
 
 /**
