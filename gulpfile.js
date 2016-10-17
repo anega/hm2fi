@@ -15,7 +15,7 @@ gulp.task('default', ['help']);
 gulp.task('sass-lint', function () {
     return gulp
         .src('public/modules/**/*.scss')
-        .pipe(sassLint())
-        .pipe(sassLint.format())
-        .pipe(sassLint.failOnError())
+        .pipe($.sassLint())
+        .pipe($.sassLint.format())
+        .pipe($.sassLint.failOnError())
 });
